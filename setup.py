@@ -13,7 +13,7 @@ setuptools.setup(
         'docopt>=0.6.2'],
     entry_points={
       'console_scripts': [
-        'doi_prefix_info=doi_prefix_info:main'
+        'doi_prefix_info=doi_prefix_info.doi_prefix_info:main'
       ]
     },
     python_requires='>=3',
